@@ -21,7 +21,7 @@ PS C:\> Get-Command Out-File
 
 CommandType     Name         Version    Source
 -----------     ----         -------    ------
-Function        Out-File     3.1.0.0    Microsoft.PowerShell.Utility
+Cmdlet          Out-File     3.1.0.0    Microsoft.PowerShell.Utility
 
 PS C:\> Out-File Test.txt -InputObject 'Hello World' -Encoding utf8NoBOM -NoNewLine
 Out-File : Cannot validate argument on parameter 'Encoding'. The argument "utf8NoBOM" does not belong to the set "unknown,string,unicode,bigendianunicode,utf8,utf7,utf32,ascii,default,oem" specified
