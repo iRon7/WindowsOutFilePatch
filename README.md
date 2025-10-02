@@ -48,4 +48,12 @@ and the new encoding values should be available.
 > [!NOTE]
 > The `Out-File` cmdlet is not replaced in PowerShell Core, so the version remains.
 
+For more details see the helpful answers from [mklement0](https://stackoverflow.com/users/101152/mklement0)
+on Stack Overflow:
+
+* [Write-Output with no BOM][2]
+* [How to make Out-File use UTF8 without BOM in Windows PowerShell][3]
+
 [1]: https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/out-file "Out-File"
+[2]: https://stackoverflow.com/a/65192064/1701026 "Write-Output with no BOM"
+[3]: https://stackoverflow.com/a/34969243/1701026 "How to make Out-File use UTF8 without BOM in Windows PowerShell"
