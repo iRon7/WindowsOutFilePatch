@@ -14,8 +14,7 @@ Besides, the `Utf8` encoding has changed from `Utf8Bom` (UTF-8 with BOM) in Wind
 
 You want the same behavior in both Windows PowerShell and PowerShell Core preferably using UTF-8 encoding.
 Therefore, you want to use `-Encoding Utf8NoBom` in all `Out-File` commands.
-However, Windows PowerShell does not support `Utf8NoBom` as a value for the `-Encoding` parameter of the `Out-File` cmdlet.
-This module adds `Utf8NoBom` and `Utf8Bom` values to the `-Encoding` parameter of the `Out-File` cmdlet in Windows PowerShell:
+However, Windows PowerShell does not support `Utf8NoBom` as a value for the `-Encoding` parameter of the `Out-File` cmdlet:
 
 ```PowerShell
 PS C:\> Get-Command Out-File
@@ -33,6 +32,9 @@ At line:1 char:56
     + CategoryInfo          : InvalidData: (:) [Out-File], ParameterBindingValidationException
     + FullyQualifiedErrorId : ParameterArgumentValidationError,Microsoft.PowerShell.Commands.OutFileCommand
 ```
+
+This module adds  and implements the `Utf8NoBom` and `Utf8Bom` values to the `-Encoding` parameter of the
+`Out-File` cmdlet in Windows PowerShell.
 
 ### Installation
 
