@@ -1,6 +1,6 @@
 # Windows Out-File Patch
 
-Add -Encoding Utf8Bom and -Encoding Utf8NoBom values to the Windows Out-File cmdlet
+Add `-Encoding Utf8Bom` and `-Encoding Utf8NoBom` values to the Windows `Out-File` cmdlet
 
 ### Use case
 
