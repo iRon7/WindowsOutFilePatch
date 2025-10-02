@@ -54,7 +54,7 @@ Function        Out-File     3.2.0.1    WindowsOutFilePatch
 > [!NOTE]
 > The `Out-File` cmdlet is not replaced in PowerShell Core, so the version remains.
 
-For more details see the helpful answers from [mklement0](https://stackoverflow.com/users/101152/mklement0)
+For more details see the helpful answers from [mklement0](https://stackoverflow.com/users/45375/mklement0)
 on Stack Overflow:
 
 * [Write-Output with no BOM][2]
