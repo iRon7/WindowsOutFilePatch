@@ -45,6 +45,12 @@ Install-Module WindowsOutFilePatch -AllowClobber
 After the patch is installation `Out-File` version should be than `3.2.0.0` or higher for Windows PowerShell
 and the new encoding values should be available.
 
+```PowerShell
+CommandType     Name         Version    Source
+-----------     ----         -------    ------
+Function        Out-File     3.2.0.1    WindowsOutFilePatch
+```
+
 > [!NOTE]
 > The `Out-File` cmdlet is not replaced in PowerShell Core, so the version remains.
 
