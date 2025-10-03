@@ -52,7 +52,11 @@ Function        Out-File     3.2.0.1    WindowsOutFilePatch
 ```
 
 > [!NOTE]
-> The `Out-File` cmdlet is not replaced in PowerShell Core, so the version remains.
+>
+> For PowerShell Core, the `Out-File` cmdlet is not replaced, so the version remains.
+> For Windows PowerShell, this patch only adds the the `Utf8NoBom` and `Utf8Bom` values to the
+> `-Encoding` parameter, it does not affect the standard (parameterless) `Out-File` behavior
+> or `-Encoding` values as `Default`, or `Utf8`.
 
 For more details see the helpful answers from [mklement0](https://stackoverflow.com/users/45375/mklement0)
 on Stack Overflow:
